@@ -5,8 +5,8 @@ gem 'rails', '4.2.1'
 gem 'bootstrap-sass'
 gem 'haml-rails'
 gem 'jquery-rails'
-gem 'mysql2'
 gem 'paperclip'
+gem 'pg'
 
 # refinerycms
 gem 'refinerycms', git: 'https://github.com/refinery/refinerycms', branch: 'master'
