@@ -16,6 +16,7 @@ gem 'refinerycms-blog', git: 'https://github.com/refinery/refinerycms-blog', bra
 gem 'refinerycms-menus', git: 'https://github.com/takestar15/refinerycms-menus.git', branch: 'rails-4-1'
 
 group :production do
+  gem 'rails_12factor'
   gem 'unicorn'
 end
 
